@@ -1,0 +1,22 @@
+version: '3.7'
+
+x-default-build:
+    &default-build
+    build: .
+
+services:
+    songadao-idchain-archive-node-latest:
+        << : *default-build
+        image: songadao/idchain-archive-node:latest
+
+    # songadao-idchain-archive-node-major:
+    #     << : *default-build
+    #     image: songadao/idchain-archive-node:0
+
+    # songadao-idchain-archive-node-minor:
+    #     << : *default-build
+    #     image: songadao/idchain-archive-node:0.0
+
+    # songadao-idchain-archive-node-patch:
+    #     << : *default-build
+    #     image: songadao/idchain-archive-node:0.0.1

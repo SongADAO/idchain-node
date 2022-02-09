@@ -1,0 +1,5 @@
+version: '3.7'
+
+services:
+    songadao-idchain-archive-node:
+        build: .
