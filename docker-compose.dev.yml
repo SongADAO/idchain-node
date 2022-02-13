@@ -6,7 +6,7 @@ services:
         volumes:
             - './idchain/:/idchain'
         environment:
-            - 'EXTRA_OPTS=-/-gcmode archive --http.api eth,net,web3,txpool'
+            - 'EXTRA_OPTS=--gcmode archive --http.api eth,net,web3,txpool'
             - 'SYNCMODE=full'
             # - 'EXTRA_OPTS=--http.api eth,net,web3,txpool'
             # - 'SYNCMODE=light'
