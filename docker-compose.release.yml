@@ -11,12 +11,12 @@ services:
 
     # songadao-idchain-node-major:
     #     << : *default-build
-    #     image: songadao/idchain-node:0
+    #     image: songadao/idchain-node:1
 
     # songadao-idchain-node-minor:
     #     << : *default-build
-    #     image: songadao/idchain-node:0.0
+    #     image: songadao/idchain-node:1.0
 
     # songadao-idchain-node-patch:
     #     << : *default-build
-    #     image: songadao/idchain-node:0.0.1
+    #     image: songadao/idchain-node:1.0.0
