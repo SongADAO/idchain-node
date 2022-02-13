@@ -5,18 +5,18 @@ x-default-build:
     build: .
 
 services:
-    songadao-idchain-archive-node-latest:
+    songadao-idchain-node-latest:
         << : *default-build
-        image: songadao/idchain-archive-node:latest
+        image: songadao/idchain-node:latest
 
-    # songadao-idchain-archive-node-major:
+    # songadao-idchain-node-major:
     #     << : *default-build
-    #     image: songadao/idchain-archive-node:0
+    #     image: songadao/idchain-node:0
 
-    # songadao-idchain-archive-node-minor:
+    # songadao-idchain-node-minor:
     #     << : *default-build
-    #     image: songadao/idchain-archive-node:0.0
+    #     image: songadao/idchain-node:0.0
 
-    # songadao-idchain-archive-node-patch:
+    # songadao-idchain-node-patch:
     #     << : *default-build
-    #     image: songadao/idchain-archive-node:0.0.1
+    #     image: songadao/idchain-node:0.0.1

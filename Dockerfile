@@ -14,8 +14,7 @@ RUN apk add ca-certificates
 RUN apk add \
     libstdc++ \
     eudev-libs \
-    libgcc \
-    bash
+    libgcc
 
 # Always execute entrypoint script
 ENTRYPOINT ["docker-entrypoint.sh"]
